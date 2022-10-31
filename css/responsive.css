@@ -1,0 +1,474 @@
+/* 
+    ##Device =  Smartphones Mobiles (glaxifold)
+    ##Screen = B/w 279px to 319px
+  */
+  
+  @media (min-width: 279px) and (max-width: 319px) {
+    
+    /* CSS */
+  
+    
+    .container {
+      width: 100%;
+      padding: 0px;
+      display: block;
+      margin: 0px;
+  }
+    .banner-right {
+      text-align: left !important;
+  }
+  .banner {
+    background-color: #FFC038;
+    padding: 60px 13px 60px;
+    position: relative;
+}
+  
+.imgb {
+  width: 226px;
+  height: auto;
+  margin-top: 50px;
+}
+.banner-shape {
+  width: 76px !important;
+  position: absolute;
+  top: 83%;
+  left: 47%;
+  transform: translate(-50%, -330%);
+}
+.what-we-do .content-block .left-content img {
+  width: 100%;
+  height: auto !important;
+}
+.banner-left{
+  width: 100%;
+}
+.banner-right{
+  width: 100%;
+}
+.our-features .content-box {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.bg-heading {
+  background-color: #464646;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: max-content;
+}
+
+.our-business .our-business-content {
+  gap: 40px;
+  margin-top: 80px;
+  background-color: #F4F4F4;
+  padding: 0px;
+}
+.footer .footer-cols {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 60px; */
+  margin-bottom: 80px;
+}
+.our-history {
+  background-color: #F6F6F6;
+  padding: 0px 0;
+}
+.our-features {
+  padding: 40px 0;
+}
+.our-business {
+  padding: 60px 0 0 0;
+}
+.our-features .bg-heading {
+  margin-bottom: 14px;
+}
+.what-we-do .content-block {
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 40px 0px;
+}
+
+.footer .social-icon {
+  width: 100%;
+  padding: 11px 0px 0px 42px;
+}
+.our-features .content-boxes {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  box-shadow: -20px 2px 20px 7px #e2d6d6;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.our-business .content-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.banner h1 {
+  font-size: 26px;
+}
+.footer .footer-cols {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+  margin-bottom: 80px;
+  flex-direction: column-reverse;
+  align-items: stretch;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.btn-primaryp {
+  font-size: 14px !important;
+  padding: 5px 15px !important;
+  text-decoration: none !important;
+  background-color: #FFBF38 !important;
+  color: #464646 !important;
+  font-weight: 500 !important;
+ 
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px #4646464a;
+  display: inline-block !important;
+  margin-top: 32px;
+  border-radius: 0% !important;
+}
+    /* css end */
+  }
+   
+   /* 
+    ##Device =Most of tha  Smartphones Mobiles (portrait)
+    ##Screen = B/w 320px to 380px
+  */
+
+  @media (min-width: 319px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+    .banner{
+        
+    }
+    .row {    
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0px !important;
+      margin-right:0px !important;
+      margin-left: calc(-.5 * var(--bs-gutter-x));
+  }
+    .container {
+      width: 100%;
+      padding: 3px;
+      display: block;
+      margin: 0px;
+  }
+   .left-content{
+    width: 100%;
+   }
+    .right-content{
+      width: 100%;
+    }
+    .banner-right {
+      text-align: left !important;
+  }
+  .banner {
+    background-color: #FFC038;
+    padding: 60px 13px 60px;
+    position: relative;
+}
+  
+.imgb {
+  width: 100% !important;
+  height: auto;
+  margin-top: 50px;
+}
+.our-features .content-boxes {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+  flex-direction: column-reverse;
+}
+.our-business .content-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-direction: column-reverse;
+}
+
+.banner-shape {
+  width: 184px !important;
+  position: absolute;
+  top: 72%;
+  left: 36%;
+  transform: translate(-50%, -330%);
+}
+.what-we-do .content-block .left-content img {
+  width: 100%;
+  height: auto !important;
+  margin: 45px 0px 0px;
+
+}
+
+.what-we-do {
+  padding: 56px 0 0 0;
+}
+.banner-left{
+  width: 100%;
+}
+.banner-right{
+  width: 100%;
+}
+.our-features .content-box {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: 0px; 
+}
+.bg-heading {
+  background-color: #464646;
+  color: #fff;
+  padding: 10px 27px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: max-content;
+}
+
+.our-business .our-business-content {
+  gap: 40px;
+  margin-top: 80px;
+  background-color: #F4F4F4;
+  padding: 0px;
+}
+.footer .footer-cols {
+  display: flex;
+  justify-content: space-between;
+   gap: 0px;
+  margin-bottom: 80px;
+}
+.footer .footer-cols {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+  margin-bottom: 80px;
+  flex-direction: column-reverse;
+  align-items: stretch;
+}
+.banner h1 {
+  font-size: 24px;
+}
+.bg-heading {
+  background-color: #464646;
+  color: #fff;
+  padding: 10px 27px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: max-content;
+}
+
+
+.what-we-do .content-block {
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 16px 0;
+}
+.our-business {
+  padding: 57px 0 0 0;
+}
+.our-features .content-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  box-shadow: -20px 2px 20px 7px #e2d6d6;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.footer .social-icon {
+  width: 100%;
+  padding:11px 0px 0px 70px;
+}
+.btn-primaryp {
+  font-size: 14px !important;
+  padding: 5px 15px !important;
+  text-decoration: none !important;
+  background-color: #FFBF38 !important;
+  color: #464646 !important;
+  font-weight: 500 !important;
+
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px #4646464a;
+  display: inline-block !important;
+  margin-top: 32px;
+  border-radius: 0% !important;
+}
+    /* css end */
+}
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+
+    .banner {
+      background-color: #FFC038;
+      padding: 51px 44px 44px;
+      position: relative;
+    }
+  .banner h1 {
+    font-size: 34px;
+   }
+  .banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  }
+  .banner-right {
+  width: 91% !important;
+  text-align: right;
+  }
+  .imgb {
+    width: 100%;
+    height: auto;
+    margin-top: 56px;
+}
+.bg-heading {
+  background-color: #464646;
+  color: #fff;
+  padding: 10px 22px;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: max-content;
+}
+.banner-shape {
+  width: 44% !important;
+  position: absolute;
+  top: 68%;
+  left: 55%;
+  transform: translate(-50%, -330%);
+}
+.what-we-do .content-block .left-content img {
+  width: 100%;
+  height: auto !important;
+  margin: 14px 0px 0px 0px;
+}
+.what-we-do .content-block {
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 65px 0;
+}
+.what-we-do {
+  padding: 80px 0 0 0;
+}
+.our-features .content-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  box-shadow: -20px 2px 20px 7px #e2d6d6;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.footer .social-icon {
+  width: 100%;
+  padding: 11px 0px 0px 156px;;
+}
+  }
+  
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS */
+    .container {
+      width: 1024px;
+    }
+    .banner h1 {
+      font-size: 34px;
+  }
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap: 0px;
+}
+.banner-right {
+  width: 100% !important;
+  text-align: right;
+}
+.imgb {
+  width: 93%;
+  height: auto;
+}
+.banner-left {
+  width: 100%;
+}
+.banner-shape {
+  width: 12px !important;
+  position: absolute;
+  top: 39%;
+  left: 47%;
+  transform: translate(-50%, -330%);
+}
+.our-features .content-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  box-shadow: -20px 2px 20px 7px #e2d6d6;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.footer .social-icon {
+  width: 100%;
+  padding: 11px 0px 0px 127px;
+}
+
+
+      /* css end */
+  }
+
+  
+
+
+  
+
+
+
+
